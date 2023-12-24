@@ -1,0 +1,50 @@
+/* Your existing CSS for other parts of the website */
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+  }
+  
+  /* Copyright Text Styles */
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  /* Your existing CSS for desktop */
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main {
+      padding: 5vw; /* Adjust padding for mobile */
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background-image: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size: cover; /* Adjust background image size */
+      /* object-fit: center; */ 
+    }
+  }
+  
